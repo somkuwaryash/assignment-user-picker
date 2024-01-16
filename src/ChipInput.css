@@ -1,0 +1,114 @@
+/* ChipInput.css */
+
+.chip-input-container {
+  width: 60%;
+  margin: auto;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.chip {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  padding: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-icon {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.input-container {
+  position: relative;
+  flex-grow: 1;
+}
+
+.input-field {
+  padding: 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 450px; /* Set a fixed width for the menu */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-logo-container {
+  margin-right: 4px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chip-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.menu-info {
+  display: flex;
+  align-items: center;
+}
+
+.menu-details {
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.menu-name {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.menu-email {
+  color: #888;
+}
+
+.no-results {
+  padding: 4px;
+  text-align: center;
+  color: #888;
+}
+
+.bottom-line {
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 10px;
+}

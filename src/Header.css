@@ -1,0 +1,11 @@
+/* Header.css */
+
+.app-header {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .app-header h1 {
+    color: blue;
+  }
+  
